@@ -1,0 +1,12 @@
+{
+    "name": "email.mjml",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "mjml -w src/index.mjml -o dist/index.html",
+        "build": "mjml src/index.mjml -o dist/index.html"
+    },
+    "dependencies": {
+        "mjml": "^4.15.3"
+    }
+}
