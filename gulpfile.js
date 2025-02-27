@@ -11,7 +11,7 @@ gulp.task('clean', () => {
 
 // Create a task to compile Mjml to HTML
 gulp.task('mjml', function () {
-    return gulp.src('./src/**/*.mjml')
+    return gulp.src('./src/**.mjml')
         .pipe(mjml(mjmlEngine, { minify: true }))
         .pipe(gulp.dest('./dist'))
 });
@@ -23,7 +23,7 @@ gulp.task('build', gulp.series('clean',
 
 // Create a watch task to watch for changes to Mjml and HTML files
 gulp.task('watch', gulp.parallel('build', () => {
-    gulp.watch('./src/**/*.mjml', gulp.series('mjml'));
+    gulp.watch('./src/**.mjml', gulp.series('mjml'));
 }));
 
 // Default Task

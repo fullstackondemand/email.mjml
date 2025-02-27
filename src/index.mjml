@@ -1,19 +1,16 @@
 <mjml>
-  <mj-head>
-    <mj-title>Say hello to card</mj-title>
-    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"></mj-font>
-    <mj-attributes>
-      <mj-text font-family="Montserrat, sans-serif"></mj-text>
-      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" />
-      <mj-section padding="0px"></mj-section>
-    </mj-attributes>
-  </mj-head>
+<mj-head>
+  <mj-title>Say hello to card</mj-title>
+  <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"></mj-font>
+  <mj-attributes>
+    <mj-text font-family="Montserrat, sans-serif"></mj-text>
+    <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" />
+    <mj-section padding="0px"></mj-section>
+  </mj-attributes>
+</mj-head>
   <mj-body background-color="#F2F2F2">
-    <mj-section padding="10px 0 20px 0">
-      <mj-column>
-        <mj-text align="center" color="#9B9B9B" font-size="11px">Writing A Good Headline For Your Advertisement</mj-text>
-      </mj-column>
-    </mj-section>
+    <mj-include path="./components/header.mjml" />
+
     <mj-section padding="20px 20px 0 20px" background-color="#FFFFFF">
       <mj-column width="35%">
         <mj-text align="left" font-size="20px" font-weight="500">// BR&amp;AND</mj-text>
