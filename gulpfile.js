@@ -23,7 +23,7 @@ gulp.task('build', gulp.series('clean',
 
 // Create a watch task to watch for changes to Mjml and HTML files
 gulp.task('watch', gulp.parallel('build', () => {
-    gulp.watch('./src/**.mjml', gulp.series('mjml'));
+    gulp.watch('./src/**/*.mjml', gulp.series('mjml'));
 }));
 
 // Default Task
